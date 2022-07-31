@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Landing page FreeCodeCamp</title>
+</head>
+
+<body>
+  <nav class="nav-bar" id="nav-bar">
+    <header class="header" id="header">
+      <div class="header-image-container">
+        <img
+          src="https://es.chevrolet.com/content/dam/chevrolet/na/us/english/primary-navigation-icons/chevrolet-logo-v2.png"
+          alt="Logo chevrolet" class="header-img" id="header-img">
+      </div>
+    </header>
+    <div class="nav-links">
+      <a href="#silverado" class="nav-link">SILVERADO ZR2</a>
+      <a href="#caracteristicas" class="nav-link">CARACTERISTICAS</a>
+      <a href="#conocela" class="nav-link">CONOCELA</a>
+    </div>
+  </nav>
+  <main>
+    <section id="silverado" class="description-principal container">
+      <h1>LA SILVERADO QUE SUPERA TODO</h1>
+      <div class="img-description">
+        <img
+          src="https://images.carprices.com/pricebooks_data/usa/colorized/2022/Chevrolet/View2/Silverado_1500_Crew_Cab/3LT/CK10543_GTL.png"
+          alt=" Silverado">
+      </div>
+      <p>La nueva Silverado 2022 le cuenta al mundo tu historia, y comienza ni bien
+        tomas el volante. Desde las aventuras
+        todo terreno hasta explorar la ciudad, la primera camioneta Silverado ZR2 tiene la fortaleza para enfrentarse al
+        futuro.</p>
+    </section>
+    <section class="searcher">
+      <form action="https://www.freecodecamp.com/email-submit)" class="form" id="form">
+        <label for="email">Conoce tu Silverado 2022</label>
+        <input id="email" placeholder="Más información a tu correo" type="text"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+        <input class="button-submit" type="submit" value="ENVIAR">
+      </form>
+    </section>
+    <section id="caracteristicas" class="features">
+
+      <h2>CARACTERISTICAS</h2>
+
+      <div class="features-container">
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <i class='bx bx-color'></i>
+          </div>
+          <div class="feature-description">
+            <h3>TODO TERRENO</h3>
+            <p>Defensa delantera diseñada para condiciones todo terreno y grandes cubrecárteres de
+              aluminio debajo de la carrocería</p>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <i class='bx bx-hive'></i>
+          </div>
+          <div class="feature-description">
+            <h3>SEGURIDAD</h3>
+            <p>Con un diseño audaz, ha sido mejorada con elementos que refuerzan la postura amplia y que inspiran
+              confianza
+              en la camioneta</p>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <i class='bx bx-tab'></i>
+          </div>
+          <div class="feature-description">
+            <h3>TECNOLOGIA</h3>
+            <p>Chevy Safety Assit además de otras tecnologías avanzadas de seguridad</p>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+    <section id="conocela" class="video container">
+      <h2>CONOCELA</h2>
+      <iframe id="video" width="400px" height="250px" src="https://www.youtube.com/embed/WVdEYzQJvxw"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </section>
+  </main>
+  <footer class="footer">
+    <div>
+      <p>Copyright 2022</p>
+    </div>
+    <div class="links">
+      <a href="/">Privacy</a>
+      <a href="/">Terms</a>
+      <a href="/">Contact</a>
+    </div>
+  </footer>
+</body>
+
+</html>
